@@ -1,0 +1,67 @@
+[
+  {
+    "description": "In order to select desired hotel\nAs a user\nI want to have a functionality to search for hotels",
+    "elements": [
+      {
+        "id": "functionality-for-searching-hotels;search-hotels-with-an-invaild-city",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Search hotels with an invaild city",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "As a room77 user I launch room77 app",
+            "result": {
+              "status": "passed",
+              "duration": 3324207
+            },
+            "line": 10,
+            "match": {
+              "location": "D:\\Sujay\\ProTrial\\features\\testApp\\step_definations\\sampleSteps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search hotels with \"aaaaaaaaaaaaaaaaa_aaaaaaaaaaaaaa\"",
+            "result": {
+              "status": "passed",
+              "duration": 36659503719
+            },
+            "line": 11,
+            "match": {
+              "location": "D:\\Sujay\\ProTrial\\features\\testApp\\step_definations\\sampleSteps.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see \"Please type in a location\" alert",
+            "result": {
+              "status": "passed",
+              "duration": 921734
+            },
+            "line": 12,
+            "match": {
+              "location": "D:\\Sujay\\ProTrial\\features\\testApp\\step_definations\\sampleSteps.js:19"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "functionality-for-searching-hotels",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Functionality for Searching Hotels",
+    "tags": [],
+    "uri": "D:\\Sujay\\ProTrial\\features\\testApp\\feature\\sample.feature"
+  }
+]
